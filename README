@@ -1,0 +1,11 @@
+This program is a web page. Character set is utf-8 and the main core's language is javascript.
+You can press the button valued "默认" to preview it.
+
+  if you press the button valued "转换↓":
+    1. the first textarea is to paste your m3u playlist's content into.
+    2. and program will change the path of the music files from the first input box to the second input box.
+    3. at last, you can see the result in the second textarea.
+
+orther:
+    1. if you press the button "反转↑", it will change xspf file to m3u file.
+    2. if the checkbox "仅转码"(just transcoding) is checked, the two input box will be hidden, and m3u playlist will just be converted by encodeURI or encodeURIComponent(if the checkbox "Component" is checked) without the tags like "<location>" in xspf playlist.
